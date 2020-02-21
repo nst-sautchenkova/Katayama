@@ -1032,7 +1032,7 @@ header .basket:hover .basket-total {
      border-left: 3px solid #ef4429;
 }
 .product-item .category-new .c-ico{
-    margin-left:-1px
+    margin-left: -7px;
 }
 .product-item .c-ico {
     line-height: 0;
@@ -1047,9 +1047,9 @@ header .basket:hover .basket-total {
     -webkit-transform: translate(0, -50%);
     -o-transform: translate(0, -50%);
     transform: translate(0, -50%);
-    width: 95px;
+    width: 54px;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 7px;
     overflow: hidden;
     max-height: 27px;
 }
@@ -1907,10 +1907,11 @@ footer .delivery a {
     left: 0;
     border-top: 3px solid #ee7663;
     overflow: hidden;
+    width: 60px;
 }
 .news-item .action .a-ico{
     position: relative;
-    top: -38px;
+    top: -1px;
 }
 .news-item .txt {
     position: absolute;
@@ -2029,10 +2030,11 @@ footer .delivery a {
     left: 0;
     border-top: 3px solid #ee7663;
     overflow: hidden;
+    width: 61px;
 }
 .news_inside-item .action .a-ico{
     position: relative;
-    top: -38px;
+    top: -1px;
 }
 .news_inside-item .action .txt {
     position: absolute;
@@ -2175,7 +2177,11 @@ footer .delivery a {
 .category-block .category {
     position: relative;
 }
-
+.category-block .category {
+    position: relative;
+    height: 29px;
+    overflow: hidden;
+}
 .category-block .category .link {
     position: absolute;
     top: 0;
@@ -2314,6 +2320,7 @@ footer .delivery a {
     height: 15px;
     background: #d3d3d3;
     margin: 0 10px;
+
 }
 
 .catalog_ins .product-info {
@@ -3848,6 +3855,9 @@ header .logo_block {
 	#extra_spices .table-responsive {
 		overflow: auto;
 	}
+	#filter-catalog{
+		display:none;
+	}
 }
 
 @media (max-width: 800px) and (orientation: landscape) {
@@ -3863,6 +3873,7 @@ header .logo_block {
     .index #services {
         margin-top: 100vh;
     }
+
 }
 
 @media (max-width: 1300px) and(orientation: landscape) {
